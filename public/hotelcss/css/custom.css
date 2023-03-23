@@ -1,0 +1,24 @@
+/*============================================================================================*/
+/* Your custom styles below */
+/*============================================================================================*/
+
+
+.hotel_card{
+    padding: 1%;
+}
+.hotel_name{
+    color: #000000;
+    font-size: 15px;
+    padding-top: 10px;
+}
+.hotel_desc{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hotel_card:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
